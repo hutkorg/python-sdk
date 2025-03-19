@@ -1,0 +1,36 @@
+{
+  "merchant": {
+    "id": 1700001,
+    "secret": "test"
+  },
+  "checkout_data": {
+    "amount": "100",
+    "currency": "UAH"
+  },
+  "order_data": {
+    "order_id": 1222
+  },
+  "order_full_data": {
+    "amount": "100",
+    "currency": "UAH"
+  },
+  "payment_p2p": {
+    "receiver_card_number": "4444555566661111",
+    "currency": "UAH",
+    "amount": "100"
+  },
+  "payment_pcidss_non3ds": {
+    "currency": "UAH",
+    "amount": "100",
+    "card_number": "4444555511116666",
+    "cvv2": "333",
+    "expiry_date": "1127"
+  },
+  "payment_pcidss_3ds": {
+    "currency": "UAH",
+    "amount": "100",
+    "card_number": "4444555566661111",
+    "cvv2": "333",
+    "expiry_date": "1127"
+  }
+}
